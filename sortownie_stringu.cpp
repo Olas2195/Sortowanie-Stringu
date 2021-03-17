@@ -8,7 +8,7 @@ string stringSort(string s) {
 	int t[256];
 	string wynik("");
 	
-	//zmiana liter na ma³e
+	//zmiana liter na maÂ³e
 	for(int i=0; i<s.length(); i++) {
 		if(s[i]<95)
 			s[i]+=32;
